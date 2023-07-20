@@ -1,31 +1,19 @@
----
-# _Remove The Section_
-
-## namedapolooza-2023-summer-template
-Namedapolooza Summer 2023 Base Template used to build your project off of.
-
-- [x] Find the repository
-- [ ] Used the template as a guideline
-- [ ] Fill in the 👇 details for your project - all places with \[ \] statements
-- [ ] Build your project
-- [ ] Create your presentation deck
-- [ ] Book your presentation slot (inviting the entire team)
-
----
-
-# \[ Project Name \]
+# Snyk Malicious Package Finder
 
 ## Description
-\[ Provide a brief description of the project. \]
+The purpose of this project is to identify Malicious Packages inside of snyk scan results.  Github action that scans your opensource project looking for Malicious Packages.  If a Malicious package is found it will fail your build process. 
+Do you need to know if you have a package that is Malicious?  This quick script will tell  you if snyk has found a open source package with a Malicious Package
 
-## Group Members
-\[ List all members of your group \]
+## Secure Sister Team
+Anastasia Bertola
+Heather Mengarelli
 
 ## Prerequisites
-\[ List any software, tools, or libraries that users need to have installed on their local machines to run the project. \]
+Snyk CLI (Authenticated)
+Linux based Operating System
 
 ## Getting Started
-\[ Provide instructions on how to get started with the project. \]
+Leverage 
 
 ### Setup
 \[ Include step-by-step instructions on how to set up the project locally. This may include cloning the repository, installing dependencies, and any other required configurations. \]
