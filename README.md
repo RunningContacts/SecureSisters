@@ -5,7 +5,7 @@ The purpose of this project is to identify Malicious Packages inside of snyk sca
 Do you need to know if you have a package that is Malicious?  This quick script will tell  you if snyk has found a open source package with a Malicious Package
 
 ## Secure Sister Team
-Anastasia Bertola
+Anastasia Bertola <br>
 Heather Mengarelli
 
 ## Prerequisites
