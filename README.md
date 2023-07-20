@@ -16,13 +16,12 @@ Linux based OS
 
 **Getting Started**
 
-Setup
+**Setup**
 [ Include step-by-step instructions on how to set up the project locally. This may include cloning the repository, installing dependencies, and any other required configurations. ]
 
-Usage
+**Usage**
 [ Explain how to use the project, including any command-line commands, APIs, or interfaces that users need to interact with. ]
-
-Features
+**Features**
 [ List and describe the main features or functionalities of the project. Include any demos, screenshots, or code snippets to showcase these features. ]
 
 Disclaimer
