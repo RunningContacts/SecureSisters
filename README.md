@@ -35,3 +35,6 @@ Namedapolooza Summer 2023 Base Template used to build your project off of.
 
 ## Features
 \[ List and describe the main features or functionalities of the project. Include any demos, screenshots, or code snippets to showcase these features. \]
+
+## Disclaimer
+This is being made as part of the [2023 Summer Namedapolooza Event](https://namedapolooza.ca/events/2023-summer/).  Please visit [the repository](https://github.com/Seanland/namedapolooza) for more details!
