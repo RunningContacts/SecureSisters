@@ -19,7 +19,30 @@ Linux based OS
 **Getting Started**
 
 **Setup**
-[ Include step-by-step instructions on how to set up the project locally. This may include cloning the repository, installing dependencies, and any other required configurations. ]
+**Create the Workflow File:**
+
+Create a new file named .github/workflows/security.yml in the root directory of your Node.js repository.
+Copy Workflow Contents:
+
+Copy the contents of the provided workflow file, starting from the line # Example workflow for Node using Snyk, and paste it into the security.yml file you created.
+Set up Snyk Token:
+
+Make sure you have a Snyk account and obtain a Snyk token from your Snyk account settings.
+In your GitHub repository, go to Settings > Secrets.
+Create a new secret named SNYK_TOKEN and paste your Snyk token as the value.
+Commit and Push Changes:
+
+Commit the security.yml file to your repository.
+Push the changes to your remote repository.
+Trigger the Workflow:
+
+Once the workflow file is in your repository and the changes are pushed, the workflow will automatically trigger on every push event.
+Review the Workflow Results:
+
+After the workflow completes, you can view the results in the Actions tab of your GitHub repository.
+The workflow will check for vulnerabilities and potential malicious packages using Snyk CLI and display the results.
+If any malicious vulnerabilities are found, the workflow will fail and display the details of the malicious packages.
+That's it! The workflow is now set up to run on every push event and will help you identify security issues in your Node.js project using Snyk. If you encounter any issues or have questions, don't hesitate to reach out to us. Happy securing!
 
 **Usage**
 To use this workflow in your Node.js repository, follow these steps:
