@@ -18,7 +18,7 @@ Linux based OS
 **Getting Started**
 
 **Setup**
-**Create the Workflow File:**
+**Create the Workflow File:** <br>
 
 Create a new file named .github/workflows/security.yml in the root directory of your Node.js repository.
 Copy Workflow Contents:
@@ -43,7 +43,7 @@ The workflow will check for vulnerabilities and potential malicious packages usi
 If any malicious vulnerabilities are found, the workflow will fail and display the details of the malicious packages.
 That's it! The workflow is now set up to run on every push event and will help you identify security issues in your Node.js project using Snyk. If you encounter any issues or have questions, don't hesitate to reach out to us. Happy securing!
 
-**Usage**
+**Usage** <br>
 To use this workflow in your Node.js repository, follow these steps:
 
 Copy the contents of the main.yml file to a new YAML file named .github/workflows/security.yml in your repository.
@@ -52,13 +52,13 @@ Ensure you have set up the required secrets, including SNYK_TOKEN, in your repos
 
 Commit and push the changes to your repository.
 
-**Features**
+**Features** <br>
 Integration with Snyk CLI to fetch and analyze security data.
 Scan for malicious packages in your Open Sourceprojects.
 Generate a detailed report of vulnerabilities found.
 Easy-to-use and seamless integration with your existing development workflow.
 
-**Workflow Deccription**
+**Workflow Deccription**  <br>
 The workflow is triggered on every push to the repository. It runs a security job named security on an ubuntu-latest runner. The job consists of several steps to scan for vulnerabilities and identify malicious packages:
 
 The workflow starts by checking out the repository code using the actions/checkout@master action.
@@ -73,9 +73,10 @@ The workflow proceeds to print the contents of malicious_vulnerabilities.txt, di
 
 Finally, the workflow checks the environment variable VULNS to see if any malicious vulnerabilities were detected. If VULNS is greater than 0, it fails the job using exit 1, indicating that malicious vulnerabilities were found.
 
-**Disclaimer**
+**Disclaimer** <br>
 This is being made as part of the 2023 Summer Namedapolooza Event. Please visit the repository for more details!
-
-We're excited to have you on board and thank you for using the Malicious Package Finder! 
-Together, let's keep your OpenSource projects secure and free from vulnerabilities. Happy coding!
+<br>
+<br>
+**We're excited to have you on board and thank you for using the Malicious Package Finder! 
+Together, let's keep your OpenSource projects secure and free from vulnerabilities. Happy coding!**
 
