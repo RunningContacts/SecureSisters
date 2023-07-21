@@ -33,3 +33,6 @@ Easy-to-use and seamless integration with your existing development workflow.
 **Disclaimer**
 This is being made as part of the 2023 Summer Namedapolooza Event. Please visit the repository for more details!
 
+We're excited to have you on board and thank you for using the Malicious Package Finder! 
+Together, let's keep your OpenSource projects secure and free from vulnerabilities. Happy coding!
+
