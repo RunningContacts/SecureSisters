@@ -2,8 +2,7 @@
 
 **Description:**
 Malicious package finder used Snyk CLI results to scan for malicious packages. It provides an extra layer of protection and helps ensure that your project is free from potential vulnerabilities.
-This .yml file will parse through your snyk CLI output file (json)
-Then review the results for where snyk has identified a Malicious Package.  
+This .yml file will parse through your snyk CLI output file (json) Then review the results for where snyk has identified a Malicious Package.  
 The results can be consumed by a flat file and break the build process. 
 
 
